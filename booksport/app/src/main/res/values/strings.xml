@@ -6,7 +6,7 @@
     <string name="nama">Nama</string>
     <string name="email">Email</string>
     <string name="nomor_telepon">Nomor Telepon</string>
-    <string name="tanggal_booking_contoh_2025_05_01">Tanggal Booking (contoh: 2025–05-01)</string>
+    <string name="tanggal_booking_contoh_01_05_2025">Tanggal Booking (contoh: 01-05-2025)</string>
     <string name="waktu_booking_contoh_15_00">Waktu Booking (contoh: 15:00)</string>
     <string name="pesan">PESAN</string>
     <string name="booking_details_akan_muncul_disini">Booking Details Akan Muncul Disini</string>

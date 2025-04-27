@@ -38,7 +38,7 @@
         <EditText
             android:id="@+id/dateInput"
             android:autofillHints=""
-            android:hint="@string/tanggal_booking_contoh_2025_05_01"
+            android:hint="@string/tanggal_booking_contoh_01_05_2025"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="date"

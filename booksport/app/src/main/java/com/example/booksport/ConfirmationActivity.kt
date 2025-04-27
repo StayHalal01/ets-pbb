@@ -24,6 +24,8 @@ class ConfirmationActivity : AppCompatActivity() {
         val phone = intent.getStringExtra("phone")
         val date = intent.getStringExtra("date")
         val time = intent.getStringExtra("time")
+        val venueName = intent.getStringExtra("venueName")
+        val venueAddress = intent.getStringExtra("venueAddress")
 
         confirmationText.text = """
             Kode Booking: $bookingCode
@@ -31,6 +33,9 @@ class ConfirmationActivity : AppCompatActivity() {
             Nama: $name
             Email: $email
             No. Telp: $phone
+            
+            Venue: $venueName
+            Alamat: $venueAddress
             Tanggal: $date
             Waktu: $time
         """.trimIndent()
