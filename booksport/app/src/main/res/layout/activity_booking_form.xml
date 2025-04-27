@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:autofillHints=""
+            android:hint="@string/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:autofillHints=""
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:autofillHints=""
+            android:hint="@string/nomor_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/dateInput"
+            android:autofillHints=""
+            android:hint="@string/tanggal_booking_contoh_2025_05_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/timeInput"
+            android:autofillHints=""
+            android:hint="@string/waktu_booking_contoh_15_00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/bookButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pesan"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
