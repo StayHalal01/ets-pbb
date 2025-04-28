@@ -53,4 +53,13 @@ class CategoryAdapter(
     }
 
     override fun getItemCount(): Int = categories.size
+
+    // New method to get the currently selected category
+    fun getSelectedCategory(): String {
+        return if (selectedPosition >= 0 && selectedPosition < categories.size) {
+            categories[selectedPosition]
+        } else {
+            "All"
+        }
+    }
 }

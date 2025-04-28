@@ -22,6 +22,14 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MyBookingsActivity"
+            android:exported="false"
+            android:label="My Bookings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
             android:name=".BookingFormActivity"
             android:exported="false" />
         <activity
